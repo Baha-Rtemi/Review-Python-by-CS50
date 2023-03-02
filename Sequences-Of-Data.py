@@ -59,6 +59,8 @@ print(Lists)
 Lists.clear()
 print(f"Delete All List Items  ==> {Lists}\n")
 
+print("HELLO")
+
 
 
 # Just empty Speace from down
