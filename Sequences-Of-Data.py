@@ -65,6 +65,17 @@ print(f"Delete All List Items  ==> {Lists}\n")
 tuple = (15.32, 49.61)
 print(tuple)
 print(tuple[0])
+print()
+
+# 4-    Sets
+#           Ordered: No
+#           Mutable: N/A
+set = set()
+for i in range(10):
+    set.add(i)
+print(set)
+set.remove(9)
+print(set)
 
 
 
