@@ -40,7 +40,24 @@ print(Lists)
 # Orange INSERT in ([mango])
 Lists.insert((len(Lists) - 1), "Orange")
 print(f" Insert Item in List in Specefic INDEX ==> {Lists}")
+print(Lists)
+Lists.remove("Orange")
+print(f"Remove List Item by secific value ==> {Lists}\n")
+print(Lists)
+Lists.pop(5)
+print(f"Pop out List Item by secific INDEX ==> {Lists}\n")
+print(Lists)
+del Lists[3]
+print(f"Delete List Item by secific INDEX (del Lists[3]) ==> {Lists}\n")
+print("Loop over the List")
+for i in range(len(Lists)):
+    print(f"Item: {i} Value: {Lists[i]}")
+print()
 
+print(Lists)
+print(Lists)
+Lists.clear()
+print(f"Delete All List Items  ==> {Lists}\n")
 
 
 
