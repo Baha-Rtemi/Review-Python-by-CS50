@@ -9,7 +9,27 @@ print()
 #           Ordered: Yes
 #           Mutable: No
 String = "Baha"
-print(String[0], String[1], String[2], String[3])
+print(f'This is Srting ==> {String}')
+print(f"Access to String ==> {String[0], String[1], String[2], String[3]}")
+print(f'This Srting ==> {String} Unchangeable ( Unmutable ).')
+
+#   Lists:
+#       Ordered: Yes
+#       Mutable: Yes
+Lists = []
+print(f"Empity List ==>  {Lists}")
+Lists.append("Baha")
+Lists.append("Ali")
+Lists.append("Adam")
+print(Lists)
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+for i in thislist:
+    Lists.append(i)
+print(Lists)
+
+
+
+
 
 # Just empty Speace from down
 print()
