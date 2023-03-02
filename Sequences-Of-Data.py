@@ -59,7 +59,12 @@ print(Lists)
 Lists.clear()
 print(f"Delete All List Items  ==> {Lists}\n")
 
-print("HELLO")
+# 3-    Tuples
+#           Ordered: Yes
+#           Mutable: No
+tuple = (15.32, 49.61)
+print(tuple)
+print(tuple[0])
 
 
 
