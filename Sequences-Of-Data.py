@@ -70,7 +70,34 @@ print()
 # 4-    Sets
 #           Ordered: No
 #           Mutable: N/A
+# Set Items:
+#   Unordered:
+#       Unordered means that the items in a set do not have a defined order.
+#       Set items can appear in a different order every time you use them,
+#       and cannot be referred to by index or key.
+#   Unchangeable:
+#       Set items are unchangeable, meaning that 
+#       we cannot change the items after the set has been created.
+#       Once a set is created, you cannot change its items, 
+#       but you can remove items and add new items.
+#   Duplicates Not Allowed:
+#       Sets cannot have two items with the same value.
+
+# Note: The values True and 1 are considered the same value in sets, and are treated as duplicates:
+# thisset = {"apple", "banana", "cherry", True, 1, 2, False, 0}
+# print(thisset) =output=> {False, True, 2, 'cherry', 'apple', 'banana'}
+# True and 1 is considered the same value
+
+## Set items can be of any data type.
+
+# A set can contain different data types:
+# set1 = {"abc", 34, True, 40, "male"}
+
 set = set()
+for i in range(10):
+    set.add(i)
+print(set)
+# SET: do not allow duplicate values
 for i in range(10):
     set.add(i)
 print(set)
