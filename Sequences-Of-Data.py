@@ -101,6 +101,11 @@ print(set)
 for i in range(10):
     set.add(i)
 print(set)
+# Access Set Items:
+for i in set:
+    print(i) # Display set item.
+# Chick if number 5 in the set:
+print(5 in set)
 set.remove(9)
 print(set)
 
