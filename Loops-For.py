@@ -41,3 +41,21 @@ for name in names:
   if name == "Ali":
     continue
   print(name)
+print("#"*10, end="\n\n")
+print("RANGE()")
+print("#"*10, end="\n\n")
+print("without range():")
+for i in [0,1,2,3,4,5,6]:
+  print(i)
+print("#"*10, end="\n\n")
+print("with range():")
+for i in range(7):
+  print(i)
+print("#"*10, end="\n\n")
+print("printout numbers from 5 to 8 :")
+for i in range(5,9):
+  print(i)
+print("#"*10, end="\n\n")
+print("printout numbers from 10 to 100 and the ingerment is 10 :")
+for i in range(10,110,10):
+  print(i)
