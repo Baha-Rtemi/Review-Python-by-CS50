@@ -1,19 +1,19 @@
-# printout numbers from 1 to 10 but without number 5
-print("#"*10, end="\n\n")
-print("printout numbers from 1 to 10 but without number 5")
-i = 0
-while i < 20:
-    i += 1
-    if i == 5:
-        continue
-    print(i)
-    if i == 10:
-        break
-print("#"*10, end="\n\n")
-print("printout a message when the loop is over")
-i = 0
-while i < 6:
-    print(i)
-    i += 1
-else:
-    print(f"The number i (({i})) is no longer less than number SIX")
+# announce a function hello() (( which mean make something before & after the function work ))
+def announce(f):
+    # define wrapper function
+    def wrapper():
+        print("before the function is running ...  ...  ... ".title())
+        f()
+        print(" ...  ...  ... after the function is running.".title())
+    # return wrapper function
+    return wrapper
+# announce a function before it's start
+# function hello()
+@announce # to announce the function hello()
+def hello():
+    print(">>>   the function is running.   <<<".upper())
+
+# but there is something will happpen before it.
+# call the function hello()
+hello()
+# also there is something will happpen afetr it.
